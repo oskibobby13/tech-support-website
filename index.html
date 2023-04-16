@@ -8,7 +8,10 @@
   </head>
   <body>
     <h1>Tech Support</h1>
-    <p>click the bubble in the bottom right to contact our tech support!</p>
+    <p>
+      click the bubble in the bottom right to contact our tech support via chat
+      or click the button at the bottom left of the screen to call us!
+    </p>
     <script type="text/javascript">
       (function (d, src, c) {
         var t = d.scripts[d.scripts.length - 1],
@@ -29,6 +32,29 @@
         "https://oskibobby.ladesk.com/scripts/track.js",
         function (e) {
           LiveAgent.createButton("1c8ey1wu", e);
+        }
+      );
+    </script>
+    <script type="text/javascript">
+      (function (d, src, c) {
+        var t = d.scripts[d.scripts.length - 1],
+          s = d.createElement("script");
+        s.id = "la_x2s6df8d";
+        s.defer = true;
+        s.src = src;
+        s.onload = s.onreadystatechange = function () {
+          var rs = this.readyState;
+          if (rs && rs != "complete" && rs != "loaded") {
+            return;
+          }
+          c(this);
+        };
+        t.parentElement.insertBefore(s, t.nextSibling);
+      })(
+        document,
+        "https://oskibobby.ladesk.com/scripts/track.js",
+        function (e) {
+          LiveAgent.createButton("9fwq1y91", e);
         }
       );
     </script>
